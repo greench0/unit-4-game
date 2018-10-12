@@ -5,7 +5,7 @@ $(document).ready(function () {
   var loss = 0;
   var userCrystal = 0;
   var randomCrystals = [];
-
+  var randomNumber; 
 
   // reset function
   function reset() {
@@ -36,7 +36,7 @@ function checkWinOrLose() {
 
 
  // generate a random number between 19 and 120 - place it in a the html
- var randomNumber = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
+randomNumber = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
  $("#target").text(randomNumber);
 
 
@@ -50,7 +50,7 @@ function checkWinOrLose() {
     console.log(randomCrystals);
   }
 
-  // click events for the html crystal elements
+  // click events for the html crystal elements60%
   $("#sky").on("click", function () {
     userCrystal += randomCrystals[0];
     $("#uservalue").text(userCrystal);

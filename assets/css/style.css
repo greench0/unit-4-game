@@ -11,7 +11,7 @@ body {
 }
 
 #top, #bottom, #left, #right {
-	background: #ff6699;
+	background: black;
 	position: fixed;
 	}
 	#left, #right {
@@ -34,13 +34,13 @@ body {
 
 h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #ff6699;
+  color: black;
   font-size: 30px;
 }
 
 h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #ff6699;
+  color: black;
   font-size: 24px;
 }
 
@@ -54,7 +54,7 @@ header {
 
 /* header info */
 #logo {
-  /* background: #ff6699; */
+  /* background: black; */
   color: white;
   padding: 35px 25px 20px 35px;
   float: left;
@@ -80,7 +80,7 @@ nav {
     padding-top: 12px;
     float: right;
     overflow: hidden;
-    color: #ff6699;
+    color: black;
     position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -95,7 +95,7 @@ nav {
   
   li a {
     text-align: center;
-    color: #ff6699;
+    color: black;
     padding: 10px 10px;
     text-decoration: none;
   }
@@ -105,13 +105,13 @@ nav {
   }
 
   .vline {
-      border-right: 1px solid #ff6699;
+      border-right: 1px solid black;
       height: 50px;
   }
   
 
 section {
-  border: 1px solid #dddddd;
+  border: 1px solid black;
 
   background: white;
   /* border: 1px solid #dddddd; */
@@ -130,26 +130,26 @@ padding: 10px 25px 30px 25px;
 hr {
   border: 0;
 height: 2px;
-background: #ff6699;
+background: black;
 
 }
 
 img {
-  width: 200px;
+  width: 150px;
 }
 
 .image {
 padding: 15px 25px 0px 0px;
 }
 p {
-  color: #ff6699;
+  color: black;
 }
 
  /* footer info */
 footer {
   background: white;
-  /* border-top: 2px solid #ff6699; */
-  color: #ff6699;
+  /* border-top: 2px solid black; */
+  color: black;
   height: 55px;
   position: fixed;
   left: 0;
@@ -177,7 +177,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #ff6699;
+  background-color: black;
   color: white;
   padding: 12px 25px;
   border: none;
@@ -208,7 +208,7 @@ input[type=submit]:hover {
   top: 75%;
   left: 44.5%;
   transform: translate(-50%, -50%);
-  background: #ff6699;
+  background: black;
   width: 200px;
   padding: 3px 0px;
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -216,7 +216,7 @@ input[type=submit]:hover {
 }
 
 a {
-  color:#ff6699;
+  color:black;
   text-decoration: none;
 }
 
@@ -288,9 +288,9 @@ nav {
 }
   
 section {  
-  width: 585px;
+  width: 565px;
   margin: 0 auto;
-  margin: 25px 0px 10px 50px;
+  
   }
 
   ul {
@@ -298,7 +298,7 @@ section {
     margin-left: 270px;
     padding: 0;
     float: left;
-    color: #ff6699;
+    color: black;
   }
 
 /* portfolio page info */
@@ -308,9 +308,9 @@ section {
   margin-right: 10%;
 }
   
-
+img {
+  width: 110px;
 }
-
 
 
 /* media queries   max width 768*/
@@ -338,7 +338,7 @@ section {
   
   }
   #logo {
-    background: #ff6699;
+    background: black;
     color: white;
     /* display: inline; */
     padding: 20px 25px 20px 25px;
@@ -352,27 +352,18 @@ section {
   section {
     background: white;
     border: 1px solid #dddddd;
-    color: #333;
+    color: black;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 200%;
     color: white;
-    width: 550px;
-    position: absolute;
-    left: 50%;
-    margin-left: -275px;
+    width: 555px;
+  
     }
+    
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      float: right;
-      overflow: hidden;
-      color: #777777;
-      position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-          }
+    img {
+      width: 100px;
+    }
 
 
           
@@ -406,15 +397,11 @@ section {
     
     } 
 
-    .image {
-      padding: 15px 0px 15px 0px;
-      width: 100%;
-    height: auto;
-      }
+    
       
   
       #logo {
-        background: #ff6699;
+        background: black;
         color: white;
         display: inline;
         padding: 20px 0px 20px 0px;
@@ -446,16 +433,15 @@ section {
 }
 
 img {
-
-  width: 300px;
-}   
+  width: 76px;
+} 
 
 .centered {
   position: absolute;
   top: 75%;
   left: 44.5%;
   transform: translate(-50%, -50%);
-  background: #ff6699;
+  background: black;
   width: 300px;
   padding: 3px 0px;
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -474,7 +460,7 @@ header {
 
 /* header info */
 #logo {
-  background: #ff6699;
+  background: black;
   color: white;
 
   float: left;
@@ -491,7 +477,7 @@ nav {
 
   height: 80px;
   position: center;
-  background: #ff6699;
+  background: black;
   margin-bottom: 20px;
 }
 
@@ -508,22 +494,4 @@ ul {
   height: 60px;
 
 }
-
-#top, #bottom, #left, #right {
-	background: none;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 18px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 18px;
-		}
-		#top { top: 0; }
-    #bottom { bottom: 0; }
 
